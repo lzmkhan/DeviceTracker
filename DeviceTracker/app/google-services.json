@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "470704644592",
+    "firebase_url": "https://devicetracker-11ee7.firebaseio.com",
+    "project_id": "devicetracker-11ee7",
+    "storage_bucket": "devicetracker-11ee7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470704644592:android:3eccceef7c5a0c22",
+        "android_client_info": {
+          "package_name": "com.crystrom.devicetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470704644592-gm3g0ph1e6as6vts103f61dqrs4m5qao.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crystrom.devicetracker",
+            "certificate_hash": "d4c21e52df1c7b89570698c48d13bdd857098b22"
+          }
+        },
+        {
+          "client_id": "470704644592-l1debljj6f5vsakr5mssj4ph5gh0o7cj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIBMvseeZq78ceJj_w8yTgHty6VMV-e6I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470704644592-l1debljj6f5vsakr5mssj4ph5gh0o7cj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

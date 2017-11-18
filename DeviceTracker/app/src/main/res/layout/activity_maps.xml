@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.crystrom.devicetracker.MapsActivity">
+
+
+    <fragment
+        android:id="@+id/map1"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        tools:layout="@layout/activity_maps" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="TextView"
+        android:background="@drawable/round_rect_shape"
+        android:elevation="2dp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:background="#ffffff"
+        android:elevation="2dp"
+        android:orientation="vertical"
+        android:padding="3dp"
+        android:layout_centerVertical="true"
+        >
+        <ImageView
+            android:id="@+id/geo_fence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:background="#ffffff"
+            android:src="@drawable/ic_location_searching_black_24px"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/navigate_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:background="#ffffff"
+            android:src="@drawable/ic_chevron_left_black_24dp"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/navigate_Right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:background="#ffffff"
+            android:src="@drawable/ic_chevron_right_black_24dp"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:background="#ffffff"
+            android:src="@drawable/ic_perm_device_information_black_24px" />
+
+        <ImageView
+            android:id="@+id/freeze_zoom_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:background="#ffffff"
+            android:src="@drawable/ic_zoom_in_black_24px"
+            android:clickable="true"
+            />
+
+        <ImageView
+            android:id="@+id/battery_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:background="#ffffff"
+            android:src="@drawable/ic_battery_std_black_24px"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/round_rect_shape"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/device_name"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/last_fix"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/battery"/>
+
+    </LinearLayout>
+</RelativeLayout>
